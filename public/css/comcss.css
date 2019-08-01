@@ -1,0 +1,526 @@
+body{
+	background-color: #EEEEEE; 
+}
+#footer{
+	 background-color: #EEEEEE !important;
+	 margin-top: 150px;
+	 padding-bottom: 20px;
+}
+/********************
+*   	Slogan	    *
+********************/
+.com_slogan{ 
+	background-color: #D3494F;
+	text-align: center; 
+	padding-top: 100px;
+	padding-bottom: 40px;
+	margin-bottom: 120px;
+} 
+.slog_img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}  
+.slog_bor{ 
+	border-bottom: solid 2px white; 
+	margin: 30px 0px 30px 0px;
+	padding-bottom: 20px;	
+}
+.slog_tit{
+	color: white;
+	font-size: 55px;
+	margin-top: 20px;
+}
+.slog_slog{
+	color: white;
+	font-size: 25px;
+} 
+
+/********************
+*   	Menu	    *
+********************/
+.nav-item:hover{
+	background-color: #E3E3E3;
+}
+.sep{
+	margin-top: 150px;
+}
+
+/* side menu */ 
+.custom-toggler.navbar-toggler {
+    border-color: rgb(0,0,0);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/**/
+/*General Admin menu*/
+.mod_card_body{
+	padding: 0px 20px 0px 0px;
+}
+div.container.sub_mod_card_body{ 
+	padding: 0px;
+}
+.cero_pad_marg{
+	padding: 0px;
+	margin: 0px;
+}
+/*general admin menu*/
+/********************
+*  Display Product  *
+********************/
+.disp_img{
+	width: 100%;
+	max-width: 250px;
+	min-height: 150px;
+	max-height: 150px;
+}
+.disp_center{
+	text-align: center;
+}
+.disp_prec{
+	font-size: 18px;
+	text-align: left;
+}
+.disp_cont{
+	margin-bottom: 25px; 
+	background-color: white; 
+	padding: 10px 0px 10px 0px;
+}
+.disp_cont a{
+	color: black;
+}
+.disp_tit{
+	text-align: left; 
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.disp_cont a:hover{
+	text-decoration: none;
+}
+.disp_cont:hover{
+	-webkit-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	-moz-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+}
+.btn.btn-primary{
+	background-color:  #FF646B;
+	border: none;
+}
+.btn.btn-primary:active{
+	background-color:  #FF646B !important; 
+	cursor: pointer;
+}
+.app_subcont{
+	background-color: #FAFAFA;
+	padding-top: 20px;
+	padding-bottom: 30px; 
+	border: solid #D0D0D0 1px;
+}
+/********************
+*   	Carrito     *
+********************/
+.car_cont{
+	background-color: red;
+	color: white;
+	font-size: 15px;
+	padding: 2px 2px 2px 2px;
+	border-radius: 20%;
+} 
+.cart_img{ 
+	width: 100%;
+	max-width: 250px;
+	min-height: 150px;
+	max-height: 150px;
+}
+.cart_btn{
+	border-radius: 11px; 
+	margin-top: 50px;
+	background-color: white;
+	color: black;
+	border: solid black 1px;
+}
+.cart_cent{ 
+}
+.cart_check{
+	font-size: 16px;
+}
+
+/* Check Box*/
+.checkbox_container{
+	font-size: 18px;
+}
+.cbx {
+	  margin: auto;
+	  -webkit-user-select: none;
+	  user-select: none;
+	  cursor: pointer;
+}
+.cbx span {
+	  display: inline-block;
+	  vertical-align: middle;
+	  transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child {
+	  position: relative;
+	  width: 18px;
+	  height: 18px;
+	  border-radius: 3px;
+	  transform: scale(1);
+	  vertical-align: middle;
+	  border: 1px solid #9098A9;
+	  transition: all 0.2s ease;
+}
+.cbx span:first-child svg {
+	  position: absolute;
+	  top: 3px;
+	  left: 2px;
+	  fill: none;
+	  stroke: #FFFFFF;
+	  stroke-width: 2;
+	  stroke-linecap: round;
+	  stroke-linejoin: round;
+	  stroke-dasharray: 16px;
+	  stroke-dashoffset: 16px;
+	  transition: all 0.3s ease;
+	  transition-delay: 0.1s;
+	  transform: translate3d(0, 0, 0);
+}
+.cbx span:first-child:before {
+	  content: "";
+	  width: 100%;
+	  height: 100%;
+	  background: #FF2E2E;
+	  display: block;
+	  transform: scale(0);
+	  opacity: 1;
+	  border-radius: 50%;
+}
+.cbx span:last-child {
+  	padding-left: 8px;
+}
+.cbx:hover span:first-child {
+  	border-color: #FF0000;
+} 
+.inp-cbx:checked + .cbx span:first-child {
+	  background: #FF0000;
+	  border-color: #FF0000;
+	  animation: wave 0.4s ease;
+}
+.inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.inp-cbx:checked + .cbx span:first-child:before {
+	  transform: scale(3.5);
+	  opacity: 0;
+	  transition: all 0.6s ease;
+} 
+@keyframes wave {
+  50% {
+    transform: scale(0.9);
+  }
+} 
+/**/
+/* general */
+.fail_alert{
+	background-color: #FF5050;
+	width: 100%;
+	padding: 20px 0px 20px 0px; 
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+} 
+/**/
+.cart_div{
+	margin-bottom: 30px;
+	background-color: white;
+	border: solid #D6D6D6 1px;
+}
+.cart_div:hover{
+	-webkit-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	-moz-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+
+}
+.cart_conf{
+	background-color: #E3E3E3;
+	padding: 30px 18px 30px 18px;
+} 
+.prod_img{
+	width: 100%;
+	height: auto;
+	max-width: 700px; 
+}
+.cat_nav{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	background-color: #FF8F8F;
+	border-radius: 10px;
+	margin-right: 10px;  
+	margin-bottom: 10px;
+}
+.cat_nav:hover{
+	background-color: #FF5858;
+}
+/********************
+*   Product Styles  *
+********************/
+.prod_check{ 
+	background-color: #E3E3E3;
+}
+/* The container */
+.prod_lab {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} 
+/* Hide the browser's default radio button */
+.prod_lab input {
+  position: absolute;
+  opacity: 0;
+  padding-left: 10px;
+  cursor: pointer;
+} 
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+} 
+/* On mouse-over, add a grey background color */
+.prod_lab:hover input ~ .checkmark {
+  background-color: #ccc;
+  cursor: pointer;
+} 
+/* When the radio button is checked, add a blue background */
+.prod_lab input:checked ~ .checkmark {
+  background-color: #DC5353;
+} 
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+} 
+/* Show the indicator (dot/circle) when checked */
+.prod_lab input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the indicator (dot/circle) */
+.prod_lab .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+} 
+.ord_cont{
+	padding-top: 0px;
+	background-color: #FAFAFA; 
+	padding-bottom: 30px; 
+	border: solid #D0D0D0 1px;
+}
+.ord_head{
+	background-color: #E7E7E7;
+}
+.ord_status_cont{  
+}
+.ord_status_g{
+	background-color: #10FF2D;
+	border-radius: 10px;
+	color: white;
+	padding: 0px 30px 0px 30px;
+	font-weight: bold;
+}
+.ord_status_r{
+	background-color: #FF3939;
+	border-radius: 10px;
+	color: white;
+	padding: 0px 30px 0px 30px;
+	font-weight: bold;
+}
+.navbar-center{
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-link{
+	color: black !important;
+}
+.ad_ord_cont_cont{
+	margin-bottom: 20px; 
+}
+.ad_ord_cont_esp{
+	font-size: 20px;
+	background-color: #E7E7E7;  
+	height: 100%;
+	-webkit-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	-moz-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	padding: 10px;
+} 
+.ad_ord_cont_pend{
+	font-size: 20px;
+	background-color: #FFC57D;  
+	height: 100%;
+	-webkit-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	-moz-box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	box-shadow: 10px 10px 7px -3px rgba(199,199,199,0.91);
+	padding: 10px;
+}
+.ad_ord_btn{
+	background-color: #FF5D5D;
+	width: 100%;
+	color: white;   
+	font-size: 15px; 
+	margin-bottom: 20px;
+}
+.ad_ord_btn:hover{
+	background-color: #FF4848;
+	cursor: pointer;
+}
+.ad_cobro_btn{ 
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+	color: black; 
+	font-size: 20px; 
+	margin-top: 20px;
+	margin-bottom: 20px;  
+}
+.ad_cobro_men_fix{
+	padding: 25px 10px 0px 0px; 
+}
+.ad_cobro_men{
+	border: 1px solid grey; 
+}
+.ad_cobro_btn:hover{ 
+	cursor: pointer;
+}
+.ad_cobro_head{
+	background-color: #E9E9E9;
+	margin-bottom: 50px;
+}
+.ad_cobro_hrf{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+	padding-left:0;
+	padding-right:0;
+	display:block;
+	text-align:center; 
+}
+.ad_cobro_body{
+	padding: 0px 15px 0px 15px; 
+	margin-bottom: 50px;
+}
+.back_btn{
+	background-color: #FF5D5D; 
+	color: white;   
+	font-size: 15px; 
+	margin-bottom: 20px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.mt-auto{
+	margin-top: auto;
+} 
+.ad_con_row{
+	background-color: #DADADA;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.ad_con_tab{
+	border: solid 1px black;
+}
+.ad_men_back{
+	background-color: #FF7878;
+	margin: 0px; 
+	height: 100%;
+}
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 650px) {
+	.navbar-nav {
+	    width: 100%;
+	    text-align: center; 
+	    > li {
+	      float: none;
+	      display: inline-block;
+    	}
+  	}
+  	.nav-item{
+		margin-bottom: 20px;
+		border-bottom: solid #D5D5D5 1px; 
+	}
+  	.disp_img{   
+		max-width: 250px;
+		min-height: 140px;
+		max-height: 140px; 
+	}
+	.cart_cent{
+		margin-top: 5px;
+	}
+	.cart_div{
+		padding-bottom: 10px;
+		margin-bottom: 30px;
+		border-bottom: solid #D5D5D5 1px; 
+	}
+	.ad_ord_cont{ 
+		width: 100%; 
+	}
+	.ad_cobro_men_fix{
+		padding: 0px 10px 0px 30px; 
+	} 
+	.ad_men_back{
+		background-color: transparent;
+		margin: 0px; 
+		height: 100%;
+	}
+}
+
+
+/********************
+*  		X Dash      *
+********************/
+.btn_home{
+	width: 100%;
+	background-color: #FF5D5D;
+	color: white;
+	font-size: 20px;
+}
+.card-header{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.btn_home:hover{
+	background-color: #FF1F1F;
+	cursor: pointer;
+}
+.card-header{
+	background-color: #FF5E5E !important;
+}
+.list_cont{
+	padding: 20px 20px 20px 20px;
+}
+.list_cont:hover{
+	background-color: #E4E4E4;
+}
